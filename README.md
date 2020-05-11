@@ -19,7 +19,7 @@ if [ -f ~/.bash-bak/bak.sh ]; then . ~/.bash-bak/bak.sh; fi
 Set HISTSIZE and create func to query archived history (in `.bashrc`)
 ```
 HISTSIZE=90000 # HISTSIZE set to more commands than you can type in a month
-function hist { grep "$1" -h --color ~/.bash_history*; }
+function hist { grep "$1" -h --color ~/.bash_history* | sort -t: -u -k1,1 | grep "$1" --color; }
 ```
 
 Query archived history
