@@ -1,6 +1,4 @@
-#!/usr/bin/env bash
-set -eu # exit on error or undefined variable
-bash -c 'set -o pipefail' # return code of first cmd to fail in a pipeline
+#!/bin/sh
 
 # This script creates monthly backups of the bash history file.
 # https://github.com/mozey/bash-bak
