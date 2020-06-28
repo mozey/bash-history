@@ -1,7 +1,7 @@
 #!/bin/sh
 
-# This script creates monthly backups of the bash history file.
-# https://github.com/mozey/bash-bak
+# This script creates backups of the bash history file, see
+# https://github.com/mozey/bash_hist
 
 KEEP=200
 BASH_HIST=~/.bash_history
