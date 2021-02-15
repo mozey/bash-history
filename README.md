@@ -17,7 +17,9 @@ e.g. `~/.profile` or `~/.bash_profile`
 if [ -f ~/.bash_hist/bak.sh ]; then . ~/.bash_hist/bak.sh; fi
 ```
 
-Set HISTSIZE and create func to query archived history (in `.bashrc`)
+Set HISTSIZE and create func to query archived history (in `.bashrc`).
+[Removing duplicates in grep output](https://stackoverflow.com/a/49313231/639133).
+**TODO** Sort by number of matches instead, e.g. "histogram"?
 ```
 HISTSIZE=90000 # Set HISTSIZE to more commands than you can type in a month
 function hist { 
