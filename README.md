@@ -1,6 +1,6 @@
 # DEPRECATED
 
-See [mozey/hist](https://github.com/mozey/hist) for Z Shell instructions
+See [mozey/zhist](https://github.com/mozey/zhist) for Z Shell instructions
 
 
 # bash_hist
