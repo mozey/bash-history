@@ -1,3 +1,8 @@
+# DEPRECATED
+
+See [mozey/hist](https://github.com/mozey/hist) for Z Shell instructions
+
+
 # bash_hist
 Create backups of `~/.bash_history`
 
