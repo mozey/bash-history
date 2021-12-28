@@ -1,5 +1,3 @@
-# DEPRECATED
-
 See [mozey/zhist](https://github.com/mozey/zhist) for Z Shell instructions
 
 
